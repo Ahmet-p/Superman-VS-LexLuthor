@@ -5,6 +5,7 @@
     <title>Superman Vs Lex Luthor</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Superman VS Lex Luthor</h1>
     <div class="game">
@@ -13,10 +14,24 @@
     </div>
     <p>Score: <span id="scoreSpan"></span></p>
     <br>
-<div class="rules">
-    <h2>Rules:</h2>
-    <p>AVOID LEX LUTHOR!!</p>
-</div>
+
+    <div id="startModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Click  'START GAME'  To Begin</p> <br><br><br><br><br><br><br><br><br>
+            <h1>Rules:</h1>
+            <h2>Avoid Lex Luthor</h2>
+            <button id="startBtn">START GAME</button>
+        </div>
+    </div>
+    <div class="controls-container">
+        <div class="textImg">
+            <h1 id="controls-text">
+                Controls: <br><br>
+                <img src="mouse-left-click-icon.webp" style="height: 180px; width: 120px;">
+            </h1>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
